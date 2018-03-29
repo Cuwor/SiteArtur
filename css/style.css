@@ -34,7 +34,7 @@ body, .nav a {
 .nav .open, .nav .open:focus, .nav .open:hover,
 .nav > li:focus, .nav > li:hover,
 .nav .open > a, .nav .open > a:focus, .nav .open > a:hover,
-.nav > li > a:focus, .nav > li > a:hover {
+.nav > li > a:focus, .nav > li > a:hover, .active > a {
     color: #fff;
     background-color: #c00d0d;
 
@@ -78,7 +78,7 @@ body, .nav a {
     max-width: 1620px;
     margin: 0 auto;
     justify-content: space-between;
-	flex-wrap: wrap;
+    flex-wrap: wrap;
 }
 
 .blockHouse p {
@@ -144,7 +144,7 @@ footer {
     padding-top: 55px;
     display: flex;
     justify-content: space-around;
-	flex-wrap: wrap;
+    flex-wrap: wrap;
     margin-bottom: 80px;
 }
 
@@ -162,12 +162,12 @@ footer {
 }
 
 .footer_sec-th_block {
-	width: 250px;
+    width: 250px;
 }
 
 .footer_sec-th_block p {
     font-size: 20px;
-	padding-left: 50px;
+    padding-left: 50px;
     text-align: left;
     font-family: Roboto;
     font-weight: 300;
@@ -177,7 +177,7 @@ footer {
 
 .footer_sec-th_block h1 {
     font-size: 30px;
-	padding-left: 50px;
+    padding-left: 50px;
     text-decoration: underline;
     text-align: left;
     font-family: Roboto;
@@ -190,13 +190,23 @@ footer {
     margin-top: 25px;
 }
 
+.footer_contact ul {
+    padding-left: 0;
+}
+
 .footer_contact li {
     list-style-type: none;
     display: inline-block;
+    text-align: center;
 }
 
 .footer_contact li:nth-child(3) {
-	margin-top: 15px;
+    margin-top: 15px;
+
+}
+
+.footer_contact li:nth-child(2) {
+    margin-right: 30px;
 }
 
 .footer_contact .number {
@@ -204,5 +214,68 @@ footer {
     border-radius: 50px;
     padding: 12px 20px;
     vertical-align: middle;
-    margin-left: 30px;
+
+}
+
+.galery_object {
+    margin: 0 auto;
+    text-align: left;
+    max-width: 1620px;
+}
+
+.galery_object h1, .galery_object p {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 30px;
+    color: #cc0000;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.galery_object img {
+    width: 250px;
+    height: 200px;
+    margin-right: 15px;
+}
+
+.galery_object p {
+    color: black;
+    margin-top: 20px;
+}
+
+.galery_object:last-child {
+    margin-bottom: 140px;
+}
+
+section {
+    max-width: 1620px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.contact {
+    margin-top: 60px;
+    margin-bottom: 100px;
+}
+
+.contact img {
+    width: 655px;
+    height: 430px;
+    display: inline-block;
+}
+
+.contact h1 {
+    font-size: 48px;
+
+}
+
+.contact_number {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 45px;
+}
+
+.contact p {
+    margin-top: 45px;
+    font-size: 24px;
 }

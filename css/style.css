@@ -14,7 +14,6 @@ body, .nav a {
     float: left;
 }
 
-
 .navbar-header {
     padding: 10px 30px 0px 0px;
     margin-bottom: 10px;
@@ -24,7 +23,6 @@ body, .nav a {
 .navbar-header > a > img {
     width: 100%;
 }
-
 
 .nav > li > a {
     padding: 35px 25px;
@@ -278,3 +276,107 @@ section {
     margin-top: 45px;
     font-size: 24px;
 }
+
+.zamok h1 {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 22.5px;
+    color: #cc0000;
+}
+
+.zamok p {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.pics {
+    margin-top: 20px;
+    margin-bottom: 80px;
+}
+
+.video_str h1 {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 20.5px;
+    color: #cc0000;
+}
+
+.video_str p {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 16.5px;
+    margin-bottom: 80px;
+}
+
+.vid {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.video_str .row {
+    margin: 0;
+}
+
+.manual h1 {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 22px;
+    color: #cc0000;
+}
+
+.manual p {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 17.7px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.manual b {
+    font-weight: 900;
+}
+
+.light-grey {
+    background-color: #e1e1e1;
+}
+.img-circle {
+    border: 7px solid #fff;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+.rest h2, .rest h1 {
+    font-family: "Open Sans";
+    margin: 0;
+    padding: 30px;
+    font-size: 34px;
+}
+
+.rest h1 {
+    padding: 40px 0 20px 0;
+}
+
+.rest p {
+    font-family: "Open Sans";
+    padding: 0 30px 30px 30px;
+    font-size: 17px;
+}
+
+.rest {
+    margin-bottom: 45px;
+}
+
+.krovlya h1{
+    color: #cc0000;
+    font-size: 32px;
+    margin: 30px 0;
+}
+
+.krovlya {
+    margin-bottom: 40px;
+}
+
+.fasady

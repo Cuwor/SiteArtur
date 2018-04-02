@@ -62,24 +62,29 @@
 <section class="confagurator">
     <div class="container">
         <h1>конфигуратор</h1>
+
         <div class="row">
             <div class="col-md-12">
                 <div class="light-grey">
-                    <div class="col-md-12 col-md-offset-1 vars">
-                        <h2 class="col-sm-12 col-md-3">Варианты цвета для:</h2>
-                        <select class="form-control col-sm-12 col-md-2" name="" id="">
-                            <option>-выберите-</option>
-                            <option>структура резекция</option>
-                            <option>щебень структура</option>
-                            <option>деревянная конструкция</option>
-                            <option>клинкерные элементы NBII</option>
-                            <option>клинкерные элементы ZBII</option>
-                            <option>штукатурка текстуры</option>
-                            <option>структурные элементы</option>
-                            <option>структура Terra</option>
-                        </select>
-                    </div>
-
+                    <form action="configurator.html" method="post" class="form" role="form">
+                        <div class="form-group">
+                            <div class="col-md-12 col-md-offset-1 vars">
+                                <h2 class="col-sm-12 col-md-3">Варианты цвета для:</h2>
+                                <select class="form-control col-sm-12 col-md-2" name="bereich"
+                                        onchange="this.form.submit()" id="">
+                                    <option>-выберите-</option>
+                                    <option>структура резекция</option>
+                                    <option>щебень структура</option>
+                                    <option>деревянная конструкция</option>
+                                    <option>клинкерные элементы NBII</option>
+                                    <option>клинкерные элементы ZBII</option>
+                                    <option>штукатурка текстуры</option>
+                                    <option>структурные элементы</option>
+                                    <option>структура Terra</option>
+                                </select>
+                            </div>
+                        </div>
+                    </form>
 
                     <br>
 

@@ -7,6 +7,7 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <title>Конфигуратор</title>
+
 </head>
 <body>
 
@@ -66,47 +67,223 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="light-grey">
-                    <form action="configurator.html" method="post" class="form" role="form">
-                        <div class="form-group">
-                            <div class="col-md-12 col-md-offset-1 vars">
-                                <h2 class="col-sm-12 col-md-3">Варианты цвета для:</h2>
-                                <select class="form-control col-sm-12 col-md-2" name="bereich"
-                                        onchange="this.form.submit()" id="">
-                                    <option>-выберите-</option>
-                                    <option>структура резекция</option>
-                                    <option>щебень структура</option>
-                                    <option>деревянная конструкция</option>
-                                    <option>клинкерные элементы NBII</option>
-                                    <option>клинкерные элементы ZBII</option>
-                                    <option>штукатурка текстуры</option>
-                                    <option>структурные элементы</option>
-                                    <option>структура Terra</option>
-                                </select>
-                            </div>
-                        </div>
-                    </form>
+
+                    <div class="col-md-12 col-md-offset-1 vars">
+                        <h2 class="col-sm-12 col-md-3">Варианты цвета для:</h2>
+                        <select id="actSelect" class="form-control col-sm-12 col-md-2" name="actSelect"
+                                aria-required="true"
+                                onChange="Selected(this)">
+                            <option value="1">-выберите-</option>
+                            <option value="2">структура резекция</option>
+                            <option value="3">щебень структура</option>
+                            <option value="4">деревянная конструкция</option>
+                            <option value="5">клинкерные элементы NBII</option>
+                            <option value="6">клинкерные элементы ZBII</option>
+                            <option value="7">штукатурка текстуры</option>
+                            <option value="8">структурные элементы</option>
+                            <option value="9">структура Terra</option>
+                        </select>
+                    </div>
+
 
                     <br>
-
-                    <div class="col-md-2 col-md-offset-1">
-                        <img src="img/restayiling2.png" class="img-circle img-responsive">
-                        <p>Название</p>
+                    <div id="block1">
+                        <div class="col-md-2 col-md-offset-1">
+                            <img src="img/restayiling2.png" class="img-circle img-responsive">
+                            <p>Название</p>
+                        </div>
+                        <div class="col-md-2">
+                            <img src="img/restayiling2.png" class="img-circle img-responsive">
+                            <p>Название</p>
+                        </div>
+                        <div class="col-md-2">
+                            <img src="img/restayiling2.png" class="img-circle img-responsive">
+                            <p>Название</p>
+                        </div>
+                        <div class="col-md-2">
+                            <img src="img/restayiling2.png" class="img-circle img-responsive">
+                            <p>Название</p>
+                        </div>
+                        <div class="col-md-2">
+                            <img src="img/restayiling2.png" class="img-circle img-responsive">
+                            <p>Название</p>
+                        </div>
                     </div>
-                    <div class="col-md-2">
-                        <img src="img/restayiling2.png" class="img-circle img-responsive">
-                        <p>Название</p>
+                    <div id="block2">
+                        <div class="col-md-2 col-md-offset-1">
+                            <img src="img/c1.png" class="img-circle img-responsive">
+                            <p>Название</p>
+                        </div>
+                        <div class="col-md-2">
+                            <img src="img/c1.png" class="img-circle img-responsive">
+                            <p>Название</p>
+                        </div>
+                        <div class="col-md-2">
+                            <img src="img/restayiling2.png" class="img-circle img-responsive">
+                            <p>Название</p>
+                        </div>
+                        <div class="col-md-2">
+                            <img src="img/restayiling2.png" class="img-circle img-responsive">
+                            <p>Название</p>
+                        </div>
+                        <div class="col-md-2">
+                            <img src="img/restayiling2.png" class="img-circle img-responsive">
+                            <p>Название</p>
+                        </div>
                     </div>
-                    <div class="col-md-2">
-                        <img src="img/restayiling2.png" class="img-circle img-responsive">
-                        <p>Название</p>
+                    <div id="block3">
+                        <div class="col-md-2 col-md-offset-1">
+                            <img src="img/restayiling2.png" class="img-circle img-responsive">
+                            <p>Название</p>
+                        </div>
+                        <div class="col-md-2">
+                            <img src="img/restayiling2.png" class="img-circle img-responsive">
+                            <p>Название</p>
+                        </div>
+                        <div class="col-md-2">
+                            <img src="img/restayiling2.png" class="img-circle img-responsive">
+                            <p>Название</p>
+                        </div>
+                        <div class="col-md-2">
+                            <img src="img/restayiling2.png" class="img-circle img-responsive">
+                            <p>Название</p>
+                        </div>
+                        <div class="col-md-2">
+                            <img src="img/restayiling2.png" class="img-circle img-responsive">
+                            <p>Название</p>
+                        </div>
                     </div>
-                    <div class="col-md-2">
-                        <img src="img/restayiling2.png" class="img-circle img-responsive">
-                        <p>Название</p>
+                    <div id="block4">
+                        <div class="col-md-2 col-md-offset-1">
+                            <img src="img/restayiling2.png" class="img-circle img-responsive">
+                            <p>Название</p>
+                        </div>
+                        <div class="col-md-2">
+                            <img src="img/restayiling2.png" class="img-circle img-responsive">
+                            <p>Название</p>
+                        </div>
+                        <div class="col-md-2">
+                            <img src="img/restayiling2.png" class="img-circle img-responsive">
+                            <p>Название</p>
+                        </div>
+                        <div class="col-md-2">
+                            <img src="img/restayiling2.png" class="img-circle img-responsive">
+                            <p>Название</p>
+                        </div>
+                        <div class="col-md-2">
+                            <img src="img/restayiling2.png" class="img-circle img-responsive">
+                            <p>Название</p>
+                        </div>
                     </div>
-                    <div class="col-md-2">
-                        <img src="img/restayiling2.png" class="img-circle img-responsive">
-                        <p>Название</p>
+                    <div id="block5">
+                        <div class="col-md-2 col-md-offset-1">
+                            <img src="img/restayiling2.png" class="img-circle img-responsive">
+                            <p>Название</p>
+                        </div>
+                        <div class="col-md-2">
+                            <img src="img/restayiling2.png" class="img-circle img-responsive">
+                            <p>Название</p>
+                        </div>
+                        <div class="col-md-2">
+                            <img src="img/restayiling2.png" class="img-circle img-responsive">
+                            <p>Название</p>
+                        </div>
+                        <div class="col-md-2">
+                            <img src="img/restayiling2.png" class="img-circle img-responsive">
+                            <p>Название</p>
+                        </div>
+                        <div class="col-md-2">
+                            <img src="img/restayiling2.png" class="img-circle img-responsive">
+                            <p>Название</p>
+                        </div>
+                    </div>
+                    <div id="block6">
+                        <div class="col-md-2 col-md-offset-1">
+                            <img src="img/restayiling2.png" class="img-circle img-responsive">
+                            <p>Название</p>
+                        </div>
+                        <div class="col-md-2">
+                            <img src="img/restayiling2.png" class="img-circle img-responsive">
+                            <p>Название</p>
+                        </div>
+                        <div class="col-md-2">
+                            <img src="img/restayiling2.png" class="img-circle img-responsive">
+                            <p>Название</p>
+                        </div>
+                        <div class="col-md-2">
+                            <img src="img/restayiling2.png" class="img-circle img-responsive">
+                            <p>Название</p>
+                        </div>
+                        <div class="col-md-2">
+                            <img src="img/restayiling2.png" class="img-circle img-responsive">
+                            <p>Название</p>
+                        </div>
+                    </div>
+                    <div id="block7">
+                        <div class="col-md-2 col-md-offset-1">
+                            <img src="img/restayiling2.png" class="img-circle img-responsive">
+                            <p>Название</p>
+                        </div>
+                        <div class="col-md-2">
+                            <img src="img/restayiling2.png" class="img-circle img-responsive">
+                            <p>Название</p>
+                        </div>
+                        <div class="col-md-2">
+                            <img src="img/restayiling2.png" class="img-circle img-responsive">
+                            <p>Название</p>
+                        </div>
+                        <div class="col-md-2">
+                            <img src="img/restayiling2.png" class="img-circle img-responsive">
+                            <p>Название</p>
+                        </div>
+                        <div class="col-md-2">
+                            <img src="img/restayiling2.png" class="img-circle img-responsive">
+                            <p>Название</p>
+                        </div>
+                    </div>
+                    <div id="block8">
+                        <div class="col-md-2 col-md-offset-1">
+                            <img src="img/restayiling2.png" class="img-circle img-responsive">
+                            <p>Название</p>
+                        </div>
+                        <div class="col-md-2">
+                            <img src="img/restayiling2.png" class="img-circle img-responsive">
+                            <p>Название</p>
+                        </div>
+                        <div class="col-md-2">
+                            <img src="img/restayiling2.png" class="img-circle img-responsive">
+                            <p>Название</p>
+                        </div>
+                        <div class="col-md-2">
+                            <img src="img/restayiling2.png" class="img-circle img-responsive">
+                            <p>Название</p>
+                        </div>
+                        <div class="col-md-2">
+                            <img src="img/restayiling2.png" class="img-circle img-responsive">
+                            <p>Название</p>
+                        </div>
+                    </div>
+                    <div id="block9">
+                        <div class="col-md-2 col-md-offset-1">
+                            <img src="img/restayiling2.png" class="img-circle img-responsive">
+                            <p>Название</p>
+                        </div>
+                        <div class="col-md-2">
+                            <img src="img/restayiling2.png" class="img-circle img-responsive">
+                            <p>Название</p>
+                        </div>
+                        <div class="col-md-2">
+                            <img src="img/restayiling2.png" class="img-circle img-responsive">
+                            <p>Название</p>
+                        </div>
+                        <div class="col-md-2">
+                            <img src="img/restayiling2.png" class="img-circle img-responsive">
+                            <p>Название</p>
+                        </div>
+                        <div class="col-md-2">
+                            <img src="img/restayiling2.png" class="img-circle img-responsive">
+                            <p>Название</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -144,6 +321,108 @@
         </div>
     </div>
 </footer>
+
+
+<script>
+    function Selected(a) {
+        var label = a.value;
+        if (label == 1) {
+            document.getElementById("block1").style.display = 'block';
+            document.getElementById("block2").style.display = 'none';
+            document.getElementById("block3").style.display = 'none';
+            document.getElementById("block4").style.display = 'none';
+            document.getElementById("block5").style.display = 'none';
+            document.getElementById("block6").style.display = 'none';
+            document.getElementById("block7").style.display = 'none';
+            document.getElementById("block8").style.display = 'none';
+            document.getElementById("block9").style.display = 'none';
+        } else if (label == 2) {
+            document.getElementById("block2").style.display = 'block';
+            document.getElementById("block1").style.display = 'none';
+            document.getElementById("block3").style.display = 'none';
+            document.getElementById("block4").style.display = 'none';
+            document.getElementById("block5").style.display = 'none';
+            document.getElementById("block6").style.display = 'none';
+            document.getElementById("block7").style.display = 'none';
+            document.getElementById("block8").style.display = 'none';
+            document.getElementById("block9").style.display = 'none';
+        } else if (label == 3) {
+            document.getElementById("block3").style.display = 'block';
+            document.getElementById("block2").style.display = 'none';
+            document.getElementById("block1").style.display = 'none';
+            document.getElementById("block4").style.display = 'none';
+            document.getElementById("block5").style.display = 'none';
+            document.getElementById("block6").style.display = 'none';
+            document.getElementById("block7").style.display = 'none';
+            document.getElementById("block8").style.display = 'none';
+            document.getElementById("block9").style.display = 'none';
+        } else if (label == 4) {
+            document.getElementById("block4").style.display = 'block';
+            document.getElementById("block2").style.display = 'none';
+            document.getElementById("block3").style.display = 'none';
+            document.getElementById("block1").style.display = 'none';
+            document.getElementById("block5").style.display = 'none';
+            document.getElementById("block6").style.display = 'none';
+            document.getElementById("block7").style.display = 'none';
+            document.getElementById("block8").style.display = 'none';
+            document.getElementById("block9").style.display = 'none';
+        } else if (label == 5) {
+            document.getElementById("block5").style.display = 'block';
+            document.getElementById("block2").style.display = 'none';
+            document.getElementById("block3").style.display = 'none';
+            document.getElementById("block4").style.display = 'none';
+            document.getElementById("block1").style.display = 'none';
+            document.getElementById("block6").style.display = 'none';
+            document.getElementById("block7").style.display = 'none';
+            document.getElementById("block8").style.display = 'none';
+            document.getElementById("block9").style.display = 'none';
+        } else if (label == 6) {
+            document.getElementById("block6").style.display = 'block';
+            document.getElementById("block2").style.display = 'none';
+            document.getElementById("block3").style.display = 'none';
+            document.getElementById("block4").style.display = 'none';
+            document.getElementById("block5").style.display = 'none';
+            document.getElementById("block1").style.display = 'none';
+            document.getElementById("block7").style.display = 'none';
+            document.getElementById("block8").style.display = 'none';
+            document.getElementById("block9").style.display = 'none';
+        } else if (label == 7) {
+            document.getElementById("block7").style.display = 'block';
+            document.getElementById("block2").style.display = 'none';
+            document.getElementById("block3").style.display = 'none';
+            document.getElementById("block4").style.display = 'none';
+            document.getElementById("block5").style.display = 'none';
+            document.getElementById("block6").style.display = 'none';
+            document.getElementById("block1").style.display = 'none';
+            document.getElementById("block8").style.display = 'none';
+            document.getElementById("block9").style.display = 'none';
+        } else if (label == 8) {
+            document.getElementById("block8").style.display = 'block';
+            document.getElementById("block2").style.display = 'none';
+            document.getElementById("block3").style.display = 'none';
+            document.getElementById("block4").style.display = 'none';
+            document.getElementById("block5").style.display = 'none';
+            document.getElementById("block6").style.display = 'none';
+            document.getElementById("block7").style.display = 'none';
+            document.getElementById("block1").style.display = 'none';
+            document.getElementById("block9").style.display = 'none';
+        } else if (label == 9) {
+            document.getElementById("block9").style.display = 'block';
+            document.getElementById("block2").style.display = 'none';
+            document.getElementById("block3").style.display = 'none';
+            document.getElementById("block4").style.display = 'none';
+            document.getElementById("block5").style.display = 'none';
+            document.getElementById("block6").style.display = 'none';
+            document.getElementById("block7").style.display = 'none';
+            document.getElementById("block8").style.display = 'none';
+            document.getElementById("block1").style.display = 'none';
+        } else {
+            document.getElementById("block1").style.display = 'none';
+            document.getElementById("block2").style.display = 'none';
+        }
+
+    }
+</script>
 
 <script src="https://code.jquery.com/jquery.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->

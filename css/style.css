@@ -473,5 +473,13 @@ section {
 .confagurator .light-grey{
     min-height: 385px;
 }
-
+#block1{
+    display: block;
+}
+#block2,#block3,#block4,#block5,#block6,
+#block7,
+#block8,
+#block9 {
+    display: none;
+}
 

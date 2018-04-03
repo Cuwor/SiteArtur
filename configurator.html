@@ -290,7 +290,13 @@
         </div>
         <br>
 
-        <img src="img/c1.png" class="img-responsive col-md-12" alt="">
+        <img src="img/c1.png" style="display:block;" class="img_conf img-responsive col-md-12" alt="">
+        <img src="img/contact.jpg" class="img_conf img-responsive col-md-12" alt="">
+        <img src="img/house.jpg" class="img_conf img-responsive col-md-12" alt="">
+        <img src="img/c1.png" class="img_conf img-responsive col-md-12" alt="">
+        <img src="img/c1.png" class="img_conf img-responsive col-md-12" alt="">
+        <img src="img/c1.png" class="img_conf img-responsive col-md-12" alt="">
+        <img src="img/c1.png" class="img_conf img-responsive col-md-12" alt="">
 
     </div>
 </section>
@@ -325,7 +331,14 @@
 
 <script>
     function Selected(a) {
+        var elems = document.getElementsByClassName('img_conf');
+
         var label = a.value;
+        for (var i = 0; i < elems.length; i++) {
+            if(label!=i+1)
+            elems[i].style.display = 'none';
+            else elems[i].style.display = 'block';
+        }
         if (label == 1) {
             document.getElementById("block1").style.display = 'block';
             document.getElementById("block2").style.display = 'none';

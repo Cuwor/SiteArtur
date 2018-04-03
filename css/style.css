@@ -466,20 +466,29 @@ section {
     padding-top: 35px;
     padding-bottom: 35px;
 }
+
 .confagurator img {
     padding: 0;
 }
 
-.confagurator .light-grey{
+.confagurator .light-grey {
     min-height: 385px;
 }
-#block1{
+
+#block1 {
     display: block;
 }
-#block2,#block3,#block4,#block5,#block6,
+
+#block2, #block3, #block4, #block5, #block6,
 #block7,
 #block8,
 #block9 {
     display: none;
 }
+
+.img_conf {
+    display: none;
+}
+
+
 

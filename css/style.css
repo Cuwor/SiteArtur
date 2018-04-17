@@ -490,5 +490,61 @@ section {
     display: none;
 }
 
+.about p {
+    font-size: 18px;
+}
+
+.about section {
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.about .redBlock {
+    background: #cc0000;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.about .redBlock > p {
+    color: white;
+    padding: 20px;
+    margin-bottom: 0;
+}
+
+.about .greyBlock {
+    background: #f2f2f2;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 15px 0;
+}
+
+.about .whiteBlock {
+    background: white;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 15px 0;
+    border: 1px solid #f2f2f2;
+}
+
+.about .downloadBtn {
+    background: #5d5958;
+    width: 120px;
+    padding: 0px 15px;
+}
+
+.downloadBtn a {
+    text-decoration: none;
+}
+
+.about .downloadBtn span {
+    vertical-align: middle;
+    color: white;
+    font-size: 12px;
+}
+
+.about .downloadBtn span:first-child {
+    font-size: 17px;
+}
+
 
 
